@@ -21,5 +21,24 @@ namespace Juice_Billing_System
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            progressBar1.Value += 1;
+            label2.Text = progressBar1.Value.ToString() + "%";
+            if (progressBar1.Value == progressBar1.Maximum)
+            {
+                timer1.Enabled = false;
+                MessageBox.Show(" Welcome To the Shop ");
+                this.Hide();
+                login l = new login();
+                l.Show();
+            }
+        }
     }
 }

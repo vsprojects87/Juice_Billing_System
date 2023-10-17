@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Juice_Billing_System
 {
-    public partial class Form2 : Form
+    public partial class Add_Juice_Price : Form
     {
-        public Form2()
+        public Add_Juice_Price()
         {
             InitializeComponent();
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

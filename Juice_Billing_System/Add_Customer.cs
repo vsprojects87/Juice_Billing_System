@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Juice_Billing_System
 {
-    public partial class Form5 : Form
+    public partial class Add_Customer : Form
     {
-        public Form5()
+        public Add_Customer()
         {
             InitializeComponent();
         }
