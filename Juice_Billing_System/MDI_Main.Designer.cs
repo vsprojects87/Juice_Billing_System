@@ -42,6 +42,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Black;
             this.menuStrip1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuToolStripMenuItem,
@@ -50,15 +51,17 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(10, 4, 0, 4);
-            this.menuStrip1.Size = new System.Drawing.Size(1091, 41);
+            this.menuStrip1.Size = new System.Drawing.Size(1093, 41);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // menuToolStripMenuItem
             // 
+            this.menuToolStripMenuItem.BackColor = System.Drawing.Color.White;
             this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addJuicePriceToolStripMenuItem,
             this.addEmployeeToolStripMenuItem});
+            this.menuToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
             this.menuToolStripMenuItem.Size = new System.Drawing.Size(84, 33);
             this.menuToolStripMenuItem.Text = "Menu";
@@ -79,10 +82,12 @@
             // 
             // inventoryToolStripMenuItem
             // 
+            this.inventoryToolStripMenuItem.BackColor = System.Drawing.Color.White;
             this.inventoryToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.addCustomerToolStripMenuItem,
             this.ordersToolStripMenuItem,
             this.showToolStripMenuItem});
+            this.inventoryToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.inventoryToolStripMenuItem.Name = "inventoryToolStripMenuItem";
             this.inventoryToolStripMenuItem.Size = new System.Drawing.Size(121, 33);
             this.inventoryToolStripMenuItem.Text = "Inventory";
@@ -110,6 +115,8 @@
             // 
             // exitToolStripMenuItem
             // 
+            this.exitToolStripMenuItem.BackColor = System.Drawing.Color.White;
+            this.exitToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(62, 33);
             this.exitToolStripMenuItem.Text = "Exit";
@@ -119,9 +126,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1091, 450);
+            this.BackgroundImage = global::Juice_Billing_System.Properties.Resources._10289804_4267387;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1093, 506);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.White;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "MDI_Main";
