@@ -96,6 +96,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Add_Employee.resx">
+      <DependentUpon>Add_Employee.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Add_Juice_Price.resx">
       <DependentUpon>Add_Juice_Price.cs</DependentUpon>
     </EmbeddedResource>
@@ -133,6 +136,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\10289804_4267387.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000_F_648562204_EGOa5Uv5J96h200ULkh9Cnmavm80x899.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000_F_648562204_EGOa5Uv5J96h200ULkh9Cnmavm80x8991.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blur_price.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

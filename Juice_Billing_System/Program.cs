@@ -16,7 +16,7 @@ namespace Juice_Billing_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Splash());
+            Application.Run(new MDI_Main());
         }
     }
 }

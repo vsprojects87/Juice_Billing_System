@@ -63,9 +63,39 @@ namespace Juice_Billing_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1000_F_648562204_EGOa5Uv5J96h200ULkh9Cnmavm80x899 {
+            get {
+                object obj = ResourceManager.GetObject("1000_F_648562204_EGOa5Uv5J96h200ULkh9Cnmavm80x899", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1000_F_648562204_EGOa5Uv5J96h200ULkh9Cnmavm80x8991 {
+            get {
+                object obj = ResourceManager.GetObject("1000_F_648562204_EGOa5Uv5J96h200ULkh9Cnmavm80x8991", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _10289804_4267387 {
             get {
                 object obj = ResourceManager.GetObject("10289804_4267387", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blur_price {
+            get {
+                object obj = ResourceManager.GetObject("blur_price", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
