@@ -16,5 +16,20 @@ namespace Juice_Billing_System
         {
             InitializeComponent();
         }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Order_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -28,7 +28,7 @@ namespace Juice_Billing_System
         private void button1_Click(object sender, EventArgs e)
         {
             con.Open();
-            SqlCommand cmd = new SqlCommand("Select password from customer where username = '"+textBox1.Text+"'", con);
+            SqlCommand cmd = new SqlCommand("Select password from user where username = '"+textBox1.Text+"'", con);
             SqlDataReader dr = cmd.ExecuteReader();
 
             if (dr.Read())
@@ -74,7 +74,7 @@ namespace Juice_Billing_System
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "insert into customer values(@p1,@p2,@p3)";
+            cmd.CommandText = "insert into user values(@p1,@p2,@p3)";
             cmd.Parameters.AddWithValue("@p1", textBox3.Text);
             cmd.Parameters.AddWithValue("@p2", textBox4.Text);
             cmd.Parameters.AddWithValue("@p3", textBox5.Text);

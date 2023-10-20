@@ -96,6 +96,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Add_Customer.resx">
+      <DependentUpon>Add_Customer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Add_Employee.resx">
       <DependentUpon>Add_Employee.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MDI_Main.resx">
       <DependentUpon>MDI_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order.resx">
+      <DependentUpon>Order.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Splash.resx">
       <DependentUpon>Splash.cs</DependentUpon>
